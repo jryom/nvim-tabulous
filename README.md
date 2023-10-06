@@ -11,17 +11,17 @@ With `lazy.nvim`:
 ```lua
 {
     'jryom/nvim-tabulous',
-    -- Default options
     opts = {
-        show_index = true,
-        fnamemodify = ":t",
-        modified_string = " +",
-        max_windows = 3, -- Max windows shown per tab
-        auto_hide = true, -- Hide when only one tab
-        separator = "▕",
-        window_separator = " | ",
-        padding = "   ", -- Horizontal padding in each tab
-        ignored_buftypes = { "nofile" },
+    --  Default options:
+    --  show_index = true,
+    --  fnamemodify = ":t",
+    --  modified_string = " +",
+    --  max_windows = 3, -- Max windows shown per tab
+    --  auto_hide = true, -- Hide when only one tab
+    --  separator = "▕",
+    --  window_separator = " | ",
+    --  padding = "   ", -- Horizontal padding in each tab
+    --  ignored_buftypes = { "nofile" },
     },
 }
 ```
